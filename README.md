@@ -1,2 +1,2 @@
-# afghan_datepicker.github.io
+# Afghan Date Picker
 Persian datepicker with leap year problems solved
