@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jpersian_datepicker.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jholidays.js"></script>
+    <script src="js/jpersian_datepicker.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="div">
+        <input type="text" id="d_picker" class="d_picker">
+    </div>
+
+<script>
+    $(document).ready(function(){
+        $(".d_picker").each(function () {
+        jpersian_datepicker($(this), {
+            buttonsColor: "green",
+            forceFarsiDigits: true,
+            markToday: true,
+            gotoToday: true
+        });
+    });
+    });
+</script>
+</body>
+</html>
